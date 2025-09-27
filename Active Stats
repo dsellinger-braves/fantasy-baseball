@@ -1,0 +1,291 @@
+import requests
+import json
+import csv
+from io import StringIO
+
+def get_player_data_csv(league_id, team_id, scoring_period_id, debug=False):
+    """
+    Retrieves player data from the ESPN Fantasy Baseball API and returns as CSV format.
+
+    Args:
+        league_id (int): The ID of the fantasy league.
+        team_id (int): The ID of the team.
+        scoring_period_id (int): The scoring period ID.
+        debug (bool): If True, prints the raw JSON structure for debugging.
+
+    Returns:
+        str: CSV formatted string with player data, one row per player.
+             Returns None if an error occurs.
+    """
+    url = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/flb/seasons/2025/segments/0/leagues/{league_id}?forTeamId={team_id}&scoringPeriodId={scoring_period_id}&view=mRoster"
+
+    try:
+        response = requests.get(url)
+        response.raise_for_status()  # Raise HTTPError for bad responses (4xx or 5xx)
+        data = response.json()
+
+        if debug:
+            print("Raw JSON structure:")
+            print(json.dumps(data, indent=2))
+            return None
+
+        player_data = []
+        all_stat_keys = set()  # To collect all possible stat keys
+        
+        # Check if the expected structure exists
+        if 'teams' not in data or not data['teams']:
+            print("No teams data found in response")
+            return None
+            
+        team_data = data['teams'][0]
+        if 'roster' not in team_data or 'entries' not in team_data['roster']:
+            print("No roster entries found in response")
+            return None
+
+        # First pass: collect all data and find all stat keys
+        for i, player in enumerate(team_data['roster']['entries']):
+            try:
+                player_info = {}
+                
+                # Safely access nested player data
+                player_pool_entry = player.get('playerPoolEntry', {})
+                player_details = player_pool_entry.get('player', {})
+                
+                # Use .get() with default values to handle missing keys
+                player_info['team_id'] = team_id  # Add team_id to output
+                player_info['scoring_period_id'] = scoring_period_id  # Add scoring_period_id to output
+                player_info['onteamid'] = player_details.get('onTeamId', None)
+                player_info['fullName'] = player_details.get('fullName', 'Unknown')
+                player_info['lineupSlotID'] = player.get('lineupSlotId', None)
+
+                # Handle stats if they exist
+                stats_dict = {}
+                stats_list = player_details.get('stats', [])
+                for stat in stats_list:
+                    if stat.get('statSplitTypeId') == 3:
+                        stats_dict = stat.get('stats', {})
+                        break  # Found the stat we want, no need to continue
+
+                player_info['stats'] = stats_dict
+                all_stat_keys.update(stats_dict.keys())  # Collect all stat keys
+                player_data.append(player_info)
+                
+            except Exception as e:
+                print(f"Error processing player {i}: {e}")
+                continue
+
+        # Create CSV
+        if not player_data:
+            return None
+
+        output = StringIO()
+        
+        # Create header row
+        base_columns = ['team_id', 'scoring_period_id', 'onteamid', 'fullName', 'lineupSlotID']
+        stat_columns = sorted(all_stat_keys)  # Sort for consistent order
+        all_columns = base_columns + stat_columns
+        
+        writer = csv.writer(output)
+        writer.writerow(all_columns)
+        
+        # Write data rows
+        for player in player_data:
+            row = []
+            # Add base columns
+            for col in base_columns:
+                row.append(player.get(col, ''))
+            
+            # Add stat columns
+            stats = player.get('stats', {})
+            for stat_col in stat_columns:
+                row.append(stats.get(stat_col, ''))
+            
+            writer.writerow(row)
+        
+        return output.getvalue()
+
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching data: {e}")
+        return None
+    except KeyError as e:
+        print(f"Error parsing JSON: Missing key {e}")
+        return None
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+        return None
+
+
+def get_all_player_data_csv(league_id, team_ids=[1, 2, 3, 5, 6, 8,9, 11, 12, 13], scoring_period_ids=range(1, 196), debug_stats=False):
+    """
+    Retrieves player data for multiple teams and scoring periods, returns combined CSV.
+
+    Args:
+        league_id (int): The ID of the fantasy league.
+        team_ids (list): Hardcoded list of Team IDs to process (default: [1, 2, ..., 10]). <-- CHANGED
+        scoring_period_ids (range/list): Scoring period IDs to process (default: 1-195 inclusive).
+        debug_stats (bool): If True, prints available stat types and scoring periods.
+
+    Returns:
+        str: CSV formatted string with all player data combined.
+    """
+    all_data = []
+    all_stat_keys = set()
+    total_requests = len(team_ids) * len(scoring_period_ids)
+    current_request = 0
+    
+    print(f"Processing {total_requests} requests...")
+    
+    for team_id in team_ids:
+        for scoring_period_id in scoring_period_ids:
+            current_request += 1
+            print(f"Processing team {team_id}, scoring period {scoring_period_id} ({current_request}/{total_requests})")
+            
+            url = f"https://lm-api-reads.fantasy.espn.com/apis/v3/games/flb/seasons/2025/segments/0/leagues/{league_id}?forTeamId={team_id}&scoringPeriodId={scoring_period_id}&view=mRoster"
+
+            try:
+                response = requests.get(url)
+                response.raise_for_status()
+                data = response.json()
+
+                # Check if the expected structure exists
+                if 'teams' not in data or not data['teams']:
+                    continue
+                    
+                team_data = data['teams'][0]
+                if 'roster' not in team_data or 'entries' not in team_data['roster']:
+                    continue
+
+                # Process players for this team/scoring period
+                for i, player in enumerate(team_data['roster']['entries']):
+                    try:
+                        player_info = {}
+                        
+                        # Safely access nested player data
+                        player_pool_entry = player.get('playerPoolEntry', {})
+                        player_details = player_pool_entry.get('player', {})
+                        
+                        # Use .get() with default values to handle missing keys
+                        player_info['team_id'] = team_id
+                        player_info['scoring_period_id'] = scoring_period_id
+                        player_info['id'] = player_details.get('id', None)
+                        player_info['onteamid'] = player_details.get('onTeamId', None)
+                        player_info['fullName'] = player_details.get('fullName', 'Unknown')
+                        player_info['lineupSlotID'] = player.get('lineupSlotId', None)
+
+                        # Debug: Print available stats for first player of first request
+                        if debug_stats and current_request == 1 and i == 0:
+                            print(f"\nDEBUG: Available stats for {player_info['fullName']}:")
+                            stats_list = player_details.get('stats', [])
+                            for stat in stats_list:
+                                print(f"  - statSplitTypeId: {stat.get('statSplitTypeId')}, scoringPeriodId: {stat.get('scoringPeriodId')}")
+                            print()
+
+                        # Handle stats - filter by scoring period and stat type
+                        stats_dict = {}
+                        stats_list = player_details.get('stats', [])
+                        
+                        # First try statSplitTypeId 3, then try 5 if 3 is not available
+                        for stat_split_type in [3, 5]:
+                            for stat in stats_list:
+                                if (stat.get('statSplitTypeId') == stat_split_type and 
+                                    stat.get('scoringPeriodId') == scoring_period_id):
+                                    stats_dict = stat.get('stats', {})
+                                    if debug_stats and current_request == 1 and i == 0:
+                                        print(f"Found stats with statSplitTypeId {stat_split_type} for scoring period {scoring_period_id}")
+                                    break
+                            if stats_dict:  # If we found stats, break out of outer loop
+                                break
+
+                        player_info['stats'] = stats_dict
+                        all_stat_keys.update(stats_dict.keys())
+                        all_data.append(player_info)
+                        
+                    except Exception as e:
+                        print(f"Error processing player {i} for team {team_id}, period {scoring_period_id}: {e}")
+                        continue
+
+            except requests.exceptions.RequestException as e:
+                print(f"Error fetching data for team {team_id}, period {scoring_period_id}: {e}")
+                continue
+            except Exception as e:
+                print(f"Unexpected error for team {team_id}, period {scoring_period_id}: {e}")
+                continue
+
+    # Create CSV from all collected data
+    if not all_data:
+        print("No data collected")
+        return None
+
+    print(f"Collected {len(all_data)} player records")
+    
+    output = StringIO()
+    
+    # Create header row
+    base_columns = ['team_id', 'scoring_period_id', 'id', 'onteamid', 'fullName', 'lineupSlotID']
+    stat_columns = sorted(all_stat_keys)
+    all_columns = base_columns + stat_columns
+    
+    writer = csv.writer(output)
+    writer.writerow(all_columns)
+    
+    # Write data rows
+    for player in all_data:
+        row = []
+        # Add base columns
+        for col in base_columns:
+            row.append(player.get(col, ''))
+        
+        # Add stat columns
+        stats = player.get('stats', {})
+        for stat_col in stat_columns:
+            row.append(stats.get(stat_col, ''))
+        
+        writer.writerow(row)
+    
+    return output.getvalue()
+
+def debug_api_structure(league_id, team_id, scoring_period_id):
+    """
+    Helper function to debug the API response structure.
+    """
+    print("Debugging API structure...")
+    get_player_data_csv(league_id, team_id, scoring_period_id, debug=True)
+
+
+# Example usage:
+league_id = 130215
+
+# # Option 1: Test with a small range first and debug stats (recommended)
+# print("Testing with debug mode to see available stats...")
+# csv_data = get_all_player_data_csv(league_id, team_ids=[5], scoring_period_ids=range(175, 176), debug_stats=True)
+
+# if csv_data:
+#     print("Sample CSV Output:")
+#     lines = csv_data.split('\n')
+#     for line in lines[:10]:  # Show first 10 lines
+#         print(line)
+#     print("...")
+    
+#     # Save sample to file
+#     with open('sample_player_data.csv', 'w', newline='') as f:
+#         f.write(csv_data)
+#     print("Sample data saved to 'sample_player_data.csv'")
+# else:
+#     print("No data retrieved.")
+
+# Option 2: Get data for all teams (using the new hardcoded default) and all scoring periods (1-195) - uncomment to use
+print("Getting all player data for all teams and scoring periods...")
+# The default here is now the hardcoded list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+csv_data = get_all_player_data_csv(league_id) 
+if csv_data:
+    print("Saving complete dataset to file...")
+    with open('C:/Users/danie/OneDrive/Documents/Sports/Fantasy Baseball/all_player_data.csv', 'w', newline='') as f:
+        f.write(csv_data)
+    print("Complete dataset saved to 'all_player_data.csv'")
+
+# Option 3: Get data for specific ranges
+# csv_data = get_all_player_data_csv(league_id, team_ids=[1, 2, 3], scoring_period_ids=range(1, 11))
+# if csv_data:
+#     with open('limited_player_data.csv', 'w', newline='') as f:
+#         f.write(csv_data)
+#     print("Limited dataset saved to 'limited_player_data.csv'")
