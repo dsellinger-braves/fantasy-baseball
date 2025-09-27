@@ -1,0 +1,239 @@
+{
+  "news": {
+    "timestamp": "2025-03-20T19:24:03Z",
+    "resultsOffset": 0,
+    "status": "success",
+    "resultsLimit": 50,
+    "resultsCount": 4,
+    "feed": [
+      {
+        "id": 95093410,
+        "nowId": "23-95093410",
+        "contentKey": "95093410-23-1-1",
+        "dataSourceIdentifier": "5a0ef6870d645",
+        "type": "Rotowire",
+        "headline": "Machado (back) will start at third base and bat cleanup in Tuesday's Cactus League game against the Giants.",
+        "description": "Machado (back) will start at third base and bat cleanup in Tuesday's Cactus League game against the Giants.",
+        "categorized": "2025-03-04T16:20:37Z",
+        "lastModified": "2025-03-04T16:20:37Z",
+        "published": "2025-03-04T16:20:37Z",
+        "images": [],
+        "story": "As anticipated, Machado will make his return to the lineup for the first time since last Tuesday, after a bout with back tightness prompted the Padres to hold him out. The fact that the Padres are deploying Machado in the field Tuesday rather than at designated hitter suggests that the team doesn't have much concern about the back issue being something that will require extra management throughout the spring.",
+        "premium": false,
+        "links": {
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=95093410"
+          },
+          "api": {
+            "self": {
+
+            }
+          }
+        },
+        "allowSearch": false,
+        "allowContentReactions": false,
+        "playerId": 31097
+      },
+      {
+        "id": 44052166,
+        "nowId": "1-44052166",
+        "contentKey": "44052166-1-6-1",
+        "dataSourceIdentifier": "955b346579c40",
+        "type": "Story",
+        "feedDisplayType": "Default",
+        "headline": "The Playbook, Inning 9: Mastering the 2025 fantasy baseball player pool",
+        "description": "How to go from fantasy baseball novice to expert in one season. Part 9 gives you insight as to which players to grab and which ones to avoid in 2025.",
+        "title": "The Playbook, Inning 9: Mastering the 2025 fantasy baseball player pool",
+        "linkText": "The Playbook, Inning 9: Mastering the 2025 fantasy baseball player pool",
+        "categorized": "2025-03-03T11:45:47Z",
+        "originallyPosted": "2025-03-03T11:44:00Z",
+        "lastModified": "2025-03-03T11:45:47Z",
+        "published": "2025-03-03T11:44:00Z",
+        "root": "flb/2025",
+        "section": "Fantasy MLB",
+        "images": [
+          {
+            "dataSourceIdentifier": "39bcf700a377c",
+            "id": 44052257,
+            "type": "header",
+            "name": "Brenton Doyle [576x324]",
+            "caption": "How deep in the player pool do you have to go in order to find success when playing fantasy baseball?",
+            "alt": "Colorado Rockies outfielder Brenton Doyle (9) gives autographs to fans prior to a spring training baseball game against the Arizona Diamondbacks.",
+            "credit": "AP",
+            "height": 324,
+            "width": 576,
+            "url": "https://a.espncdn.com/photo/2025/0228/r1457709_576x324_16-9.jpg"
+          }
+        ],
+        "related": [
+          {
+            "id": 43917840,
+            "dataSourceIdentifier": "7be5f0672b682",
+            "type": "Story",
+            "headline": "A lapsed fan's guide to fantasy baseball in 2025",
+            "title": "A lapsed fan's guide to fantasy baseball in 2025",
+            "linkText": "Fantasy baseball 2025 lapsed fan guide: Soto, trades, more",
+            "images": [
+              {
+                "dataSourceIdentifier": "2cebf68f9b3f8",
+                "id": 43924714,
+                "type": "header",
+                "name": "A lapsed fan's guide to fantasy baseball in 2025 [1500x844]",
+                "alt": "A lapsed fan's guide to fantasy baseball in 2025",
+                "credit": "Illustration by ESPN",
+                "height": 844,
+                "width": 1500,
+                "url": "https://a.espncdn.com/photo/2025/0219/mlb_lapsed-fans-guide-fantasybball_16x9.jpg"
+              }
+            ],
+            "premium": false,
+            "links": {
+              "web": {
+                "href": "https://www.espn.com/fantasy/baseball/story/_/id/43917840/fantasy-baseball-lapsed-fan-2025-soto-trades-free-agents-manager-changes"
+              },
+              "mobile": {
+                "href": "http://m.espn.go.com/wireless/story?storyId=43917840"
+              },
+              "api": {
+                "self": {
+                  "href": "https://content.core.api.espn.com/v1/sports/news/43917840"
+                }
+              },
+              "app": {
+                "sportscenter": {
+                  "href": "sportscenter://x-callback-url/showStory?uid=43917840"
+                }
+              }
+            },
+            "byline": "Eric Karabell"
+          },
+          {
+            "id": 43437704,
+            "dataSourceIdentifier": "31ebb2f888dd0",
+            "type": "Story",
+            "headline": "ESPN fantasy baseball: The 2025 Draft Kit",
+            "title": "ESPN fantasy baseball: The 2025 Draft Kit",
+            "linkText": "Fantasy baseball rankings, projections, strategy and cheat sheets",
+            "images": [
+              {
+                "dataSourceIdentifier": "654b708e80a78",
+                "id": 43574313,
+                "type": "header",
+                "name": "ESPN fantasy baseball: The 2025 Draft Kit [576x324]",
+                "caption": "Paul Skenes, Juan Soto, Bobby Witt Jr., Tarik Skubal and Shohei Ohtani are among this season's most sought-after players in fantasy baseball.",
+                "alt": "Paul Skenes, Juan Soto, Bobby Witt Jr., Tarik Skubal & Shohei Ohtani",
+                "credit": "ESPN",
+                "height": 324,
+                "width": 576,
+                "url": "https://a.espncdn.com/photo/2025/0126/fan_baseball_draft_kit_new_16x9_576x324.jpg"
+              }
+            ],
+            "premium": false,
+            "links": {
+              "web": {
+                "href": "https://www.espn.com/fantasy/baseball/story/_/id/43437704/espn-2025-fantasy-baseball-rankings-projections-strategy-cheat-sheets"
+              },
+              "mobile": {
+                "href": "http://m.espn.go.com/wireless/story?storyId=43437704"
+              },
+              "api": {
+                "self": {
+                  "href": "https://content.core.api.espn.com/v1/sports/news/43437704"
+                }
+              },
+              "app": {
+                "sportscenter": {
+                  "href": "sportscenter://x-callback-url/showStory?uid=43437704"
+                }
+              }
+            },
+            "byline": "ESPN Fantasy"
+          }
+        ],
+        "authors": [],
+        "story": "\u003Cp\u003E\u003Cphoto1\u003E\u003C/p\u003E\n\u003Cp\u003E\u003Cem\u003E(The full, nine-inning Playbook was originally published during the spring of 2020. The following 2025 analysis is new.)\u003C/em\u003E\u003C/p\u003E\n\u003Cp\u003EWe've gone through the basics of \u003Ca href=\"http://www.espn.com/fantasy/baseball/\"\u003Efantasy baseball\u003C/a\u003E, discussed salary cap strategy and how to build a cheat sheet. We've also provided in-season trade and free agency tips, dug deep into the advanced stats (including those provided by Statcast) and examined the latest trends around the league.\u003C/p\u003E\n\u003Cp\u003EStill, even with all those tools at your disposal, there's no greater truth to fantasy baseball success than this: The key ingredient to winning a championship is an extensive knowledge of the player pool itself.\u003C/p\u003E\n\u003Cp\u003E\u003Cinline1\u003E\u003C/p\u003E\n\u003Cp\u003EThis final edition of the Playbook takes you through my \u003Ci\u003Eown\u003C/i\u003E playbook -- a file I compile and maintain annually containing notes on hundreds of players, where I'll jot down any sort of injury report, statistical nugget or neat fact that might help in the decision-making process. It's from this file that I craft my \u003Ca href=\"https://www.espn.com/fantasy/baseball/story/_/id/35437997/fantasy-baseball-rankings-points-leagues-2025-espn-cockcroft\"\u003Eplayer rankings\u003C/a\u003E and ultimately create my own cheat sheets.\u003C/p\u003E\n\u003Cp\u003EThey're things you might consider when drafting any of the listed names, though my rankings ultimately provide you my best estimate of each player's current-season worth.\u003C/p\u003E\n\u003Cp\u003EWith that in mind, here are a few of those players who have sprung to the front of my mind as we get ready for the spring action to come:\u003C/p\u003E\n\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/42403.png&w=350&h=254&transparent=true\" width=\"100\"\u003ETo illustrate how truly special a talent \u003Cb\u003E\u003Ca data-player-guid=\"953a1c30-3f92-3387-bc26-c4ad94124e87\" href=\"https://www.espn.com/mlb/player/_/id/42403/bobby-witt-jr\"\u003EBobby Witt Jr\u003C/a\u003E.\u003C/b\u003E is, Statcast's Barrel and sprint-speed metrics paint quite the picture. He is the only player in the 10-year history for which we have that data to have managed at least 10% Barrel and 30% sprint-speed rates. He placed in the 92nd percentile in the former, the 100th in the latter and is baseball's first player with multiple 30/30 seasons before turning 25 years old.\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33192.png&w=350&h=254&transparent=true\" width=\"100\"\u003E\u003Cb\u003E\u003Ca data-player-guid=\"e3e39e69-2861-f5b5-49be-b0880534c802\" href=\"https://www.espn.com/mlb/player/_/id/33192/aaron-judge\"\u003EAaron Judge\u003C/a\u003E\u003C/b\u003E might be coming off one of the best hitting seasons in baseball history as his 223 OPS-plus was sixth-best among batting title-eligibles during the Integration Era, and he scored 630 fantasy points. However, historic campaigns often coax us to overlook the effects of regression or a player's past injury history.\u003C/p\u003E\n\u003Cp\u003EConsider that, from 2000-23, there were 39 instances of a hitter scoring 600-plus fantasy points. Over each player's following season, that group averaged 21.4 fewer games and only 507.4 points. One-third of those players scored fewer than 500 fantasy points -- including Judge himself, who missed 54 days and 42 team games with a 2023 toe injury suffered when he crashed into an outfield wall at Dodger Stadium (as well as another 11 days and 10 team games with a hip issue earlier in the year). He finished 2023 with only 106 games played and 340 fantasy points, sixth-worst among those 39 \"follow-up\" campaigns.\u003C/p\u003E\n\u003Cp\u003EI'm as big a Judge fan as anyone, but if he's going to cost a hefty, almost \u003Ca data-player-guid=\"04a76996-4a5c-456d-8022-a9d45e3ff933\" href=\"https://www.espn.com/mlb/player/_/id/39832/shohei-ohtani\"\u003EShohei Ohtani\u003C/a\u003E-like premium in drafts, I'm passing on him for 2025.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/42404.png&w=350&h=254&transparent=true\" width=\"100\"\u003EA first-round pick last year, \u003Cb\u003E\u003Ca data-player-guid=\"e87f6474-dacb-3666-a7de-bb59438a830d\" href=\"https://www.espn.com/mlb/player/_/id/42404/corbin-carroll\"\u003ECorbin Carroll\u003C/a\u003E\u003C/b\u003E began 2024 as one of its biggest disappointments, in large part due to his struggles adapting to some swing changes he had made last winter. Carroll straightened things out shortly thereafter -- something I examined in \u003Ca href=\"https://www.espn.com/fantasy/baseball/story/_/id/40325143/fantasy-baseball-2024-mlb-corbin-carroll-stats-diamondbacks-other-underachievers\" target=\"_blank\"\u003Ethis June column\u003C/a\u003E -- batting .256/.348/.522 with 20 home runs, 26 stolen bases and a seventh-best-among-hitters 331 fantasy points. That's a much better representation of what should be expected from him going forward than his ghastly numbers over 2024's first 10 weeks.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/34967.png&w=350&h=254&transparent=true\" width=\"100\"\u003E\u003Cb\u003E\u003Ca data-player-guid=\"b963b85d-6db2-f0e5-b763-88d4a41c0d73\" href=\"https://www.espn.com/mlb/player/_/id/34967/kyle-tucker\"\u003EKyle Tucker\u003C/a\u003E\u003C/b\u003E's injury last season -- a small fracture in his shin suffered on June 3 during an at-bat -- was more of a fluke than a long-term concern. Keep that in mind when evaluating him entering what is his walk year, as well as his first with the \u003Ca data-clubhouse-guid=\"5cda5067-7075-66b1-4b94-2333ab8d9807\" href=\"https://www.espn.com/mlb/team/_/name/chc/chicago-cubs\"\u003EChicago Cubs\u003C/a\u003E. Tucker had scored the third-most fantasy points at the time of his injury (222), and he was comparably excellent after his return, ranking 21st with 58 points from Sept. 6 until the end of the regular season. At the time he got hurt, he was on track for a third consecutive 25/25 (HR/SB) campaign, something that has been done by only nine players in history.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/41044.png&w=350&h=254&transparent=true\" width=\"100\"\u003EAlthough \u003Cb\u003E\u003Ca data-player-guid=\"b4376163-318a-7510-fe79-bbb7ee9acf0d\" href=\"https://www.espn.com/mlb/player/_/id/41044/julio-rodriguez\"\u003EJulio Rodriguez\u003C/a\u003E\u003C/b\u003E endured a disappointing, injury-marred 2024, he still managed a third consecutive 20/20 campaign to begin his MLB career. He's only 24 years old, and he finished last season on a high note. He hit .295/.345/.486 with nine home runs and six stolen bases over his final 43 games, during which time he had comparable Statcast average exit velocity (92.3 mph), hard-hit (50.4%) and Barrel rates (11.3%) to his numbers from 2022-23 combined (92.4, 51.7% and 12.4%). Rodriguez's free-swinging nature continues to make him more of a premium pick in rotisserie leagues than he is in ESPN's points-based standard, but there's an excellent chance he's aligned for 2025 results closer to those of 2022 or 2023.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36018.png&w=350&h=254&transparent=true\" width=\"100\"\u003ECombining the past three seasons, only two hitters have had at least a 15% Statcast Barrel and at most a 17.5% strikeout rate: \u003Ca data-player-guid=\"c0225b71-161d-fe89-5c62-d27fa64259fd\" href=\"https://www.espn.com/mlb/player/_/id/36969/juan-soto\"\u003EJuan Soto\u003C/a\u003E and \u003Cb\u003E\u003Ca data-player-guid=\"930faba2-9f78-d51c-0cdf-48075a237656\" href=\"https://www.espn.com/mlb/player/_/id/36018/yordan-alvarez\"\u003EYordan Alvarez\u003C/a\u003E\u003C/b\u003E. We all think of Soto as one of the best all-around hitters, with elite raw power and contact ability, but do we regard Alvarez the same? Probably not ... but we should.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4872691.png&w=350&h=254&transparent=true\" width=\"100\"\u003EIt's a shame that the \u003Ca data-clubhouse-guid=\"4dec648c-3eb9-055c-aebc-2711f30975a0\" href=\"https://www.espn.com/mlb/team/_/name/sd/san-diego-padres\"\u003ESan Diego Padres\u003C/a\u003E couldn't have claimed they played in the AL just so that \u003Cb\u003E\u003Ca data-player-guid=\"eb9b0c5a-cdda-302d-b72c-556c0201c9a9\" href=\"https://www.espn.com/mlb/player/_/id/4872691/jackson-merrill\"\u003EJackson Merrill\u003C/a\u003E\u003C/b\u003E could have snagged a Rookie of the Year Award in a season in which he was plenty deserving of the honor. That's not to criticize \u003Ca data-player-guid=\"cdfd69c1-1b9b-30fe-acf4-aad457b0850e\" href=\"https://www.espn.com/mlb/player/_/id/4719507/paul-skenes\"\u003EPaul Skenes\u003C/a\u003E, who was every bit as worthy (and my personal pick for the award), but Merrill set a record for a player 21 years or younger with five game-tying or go-ahead home runs in the ninth inning or later. It underscored the Padres slugger's rapidly growing raw power skills, which were most evident from June 12 onward, when he hit .304/.336/.596 with 21 home runs over 89 games. During that time, Merrill's 14.8% Statcast Barrel rate ranked 14th, and his 38.1% fly-ball rate sat third among hitters with at least 250 plate appearances.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31097.png&w=350&h=254&transparent=true\" width=\"100\"\u003ELet's set aside shortened MLB seasons -- the COVID-shortened 2020, in this example -- for a moment. If we do that, \u003Cb\u003E\u003Ca data-player-guid=\"f648627a-f607-58d0-f02a-9282e6a7b5ef\" href=\"https://www.espn.com/mlb/player/_/id/31097/manny-machado\"\u003EManny Machado\u003C/a\u003E\u003C/b\u003E would have nine consecutive complete MLB seasons with at least 28 home runs. That would make him one of only 16 players in baseball history with a streak of at least that length, underscoring his consistently excellent production even as he enters his age-32 season.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33859.png&w=350&h=254&transparent=true\" width=\"100\"\u003EFew 2024-ending injuries warrant as close attention this spring than \u003Cb\u003E\u003Ca data-player-guid=\"9a29840a-6ec6-8b17-995a-f01bc7567f2d\" href=\"https://www.espn.com/mlb/player/_/id/33859/rafael-devers\"\u003ERafael Devers\u003C/a\u003E\u003C/b\u003E' shoulder issue, which cost him 11 of the \u003Ca data-clubhouse-guid=\"c6df06f6-785d-3900-4935-5fd13742e2ee\" href=\"https://www.espn.com/mlb/team/_/name/bos/boston-red-sox\"\u003EBoston Red Sox\u003C/a\u003E's final 31 games and caused him to hit only .164 with one extra-base hit, a double, in the other 20. To further illustrate the effects of the shoulder injury on his production, he had 46.0% hard-hit and 39.0% whiff rates, the former 8% beneath his rate up to that point in 2024, the latter more than 9% greater than his early-season exploits.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36084.png&w=350&h=254&transparent=true\" width=\"100\"\u003EStatcast estimated that \u003Cb\u003E\u003Ca data-player-guid=\"a32fe481-0209-dc71-ddc2-dbb4e860b181\" href=\"https://www.espn.com/mlb/player/_/id/36084/anthony-santander\"\u003EAnthony Santander\u003C/a\u003E\u003C/b\u003E should have been expected to hit only 36.6 home runs last season, (awfully close to the 33.3 he had in that category in the two previous seasons) and within range of the 33 (2022) and 28 (2023) he actually hit. He ended up with 44. When figuring out a three-year average to help project his 2025 potential HR output, it's probably much wiser to chip 8-10 homers off last season's total. Set a number around 32 as your baseline for his 2025 expectations.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/42178.png&w=350&h=254&transparent=true\" width=\"100\"\u003E\u003Cb\u003E\u003Ca data-player-guid=\"ef72b3ad-2cb6-eecb-37ab-24726859d3c5\" href=\"https://www.espn.com/mlb/player/_/id/42178/adley-rutschman\"\u003EAdley Rutschman\u003C/a\u003E\u003C/b\u003E was struck on the hand by a foul tip in a June 27 game, missing the \u003Ca data-clubhouse-guid=\"9ca473b8-e73e-a33d-8ea0-b4d160be4be7\" href=\"https://www.espn.com/mlb/team/_/name/bal/baltimore-orioles\"\u003EBaltimore Orioles\u003C/a\u003E' next contest but no additional time. After that point, however, he managed to hit only .189/.279/.280 with four home runs over 71 games -- a surefire signal that the injury took a toll on his production. Rutschman is another player whose health warrants monitoring during Grapefruit League action, as from the date of his MLB debut (5/21/22) until the date of that injury, his 214 fantasy points led all catchers and were tied for 17th-best among hitters.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4872587.png&w=350&h=254&transparent=true\" width=\"100\"\u003EAlthough his 2024 U.S. debut didn't go quite as well as many hoped, \u003Cb\u003E\u003Ca data-player-guid=\"8f8c5b6b-ec0b-39fe-bf1d-871f55b0e5e6\" href=\"https://www.espn.com/mlb/player/_/id/4872587/yoshinobu-yamamoto\"\u003EYoshinobu Yamamoto\u003C/a\u003E\u003C/b\u003E, at times, still flashed the top-shelf stuff that should quickly make him one of fantasy's best starting pitchers. After surrendering five runs in the first inning of the season's opening game in Japan, he posted the majors' ninth-best ERA (2.34), 11th-best strikeout rate (28.1%) and 11th-best K/BB ratio (5.13) until he got hurt in a June 15 start. During that span, only 14 starting pitchers averaged better than his 15.3 fantasy points per start.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/41610.png&w=350&h=254&transparent=true\" width=\"100\"\u003EIf rationales for \u003Cb\u003E\u003Ca data-player-guid=\"e2897bf5-e89b-aaca-a7de-7e5dc498352a\" href=\"https://www.espn.com/mlb/player/_/id/41610/jarren-duran\"\u003EJarren Duran\u003C/a\u003E\u003C/b\u003E's breakthrough 2024 are what you seek, his defensive improvements rank high on that list. A liability in the field in his early MLB days, Duran was worth 11 runs defensively last season, tied for eighth-most among outfielders, and his 10 Statcast Outs Above Average between left and center field were tied for 12th-best among outfielders. That's the kind of defensive skill that earns a player a fantasy-beneficial everyday role, as Duran played in 160 games and had a league-leading 735 plate appearances. Expect more of the same in 2025, despite Boston's crowded roster.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31117.png&w=350&h=254&transparent=true\" width=\"100\"\u003ESpeaking of playing time benefits, \u003Cb\u003E\u003Ca data-player-guid=\"3fdb3223-8b0e-9e5c-28f9-4f89658f6b6f\" href=\"https://www.espn.com/mlb/player/_/id/31117/jurickson-profar\"\u003EJurickson Profar\u003C/a\u003E\u003C/b\u003E's career bests of 158 games and 668 plate appearances had a lot to do with his 2024 rebound -- one you can term a breakthrough if you weren't wowed by his 2018. It probably also helped that he had a full spring training this time around. You may recall that after signing late in 2023, he had a miserable season. Regression nevertheless appears likely to have an effect on his 2025, especially as he hit .235/.345/.409 over his final 66 games last season.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33224.png&w=350&h=254&transparent=true\" width=\"100\"\u003E\u003Cb\u003E\u003Ca data-player-guid=\"4a17f08f-b20a-2d81-ae0c-ec06266eb20e\" href=\"https://www.espn.com/mlb/player/_/id/33224/devin-williams\"\u003EDevin Williams\u003C/a\u003E\u003C/b\u003E' back injury, which cost him the first four months of the 2024 season, didn't seem to have any adverse impact upon his performance after his activation. Among pitchers with at least 20 innings pitched from the date of his July 28 activation onward, his 43.2% strikeout rate ranked second, his 14 saves tied for fourth and his .133 BAA ranked 10th.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32146.png&w=350&h=254&transparent=true\" width=\"100\"\u003EKeep tabs on the \u003Ca data-clubhouse-guid=\"4fa2cf46-09fc-255f-74a1-2a8857b0e671\" href=\"https://www.espn.com/mlb/team/_/name/tex/texas-rangers\"\u003ETexas Rangers\u003C/a\u003E' lineup plans during spring training, as \u003Cb\u003E\u003Ca data-player-guid=\"7e94f7f5-8502-7d28-e783-61e674f58107\" href=\"https://www.espn.com/mlb/player/_/id/32146/marcus-semien\"\u003EMarcus Semien\u003C/a\u003E\u003C/b\u003E's status as the team's leadoff hitter has a good amount of say in his fantasy value. He leads the majors with 2,919 plate appearances across the past four seasons, resulting in his scoring 1,841 fantasy points, seventh-best among hitters. Going by his per-game average, however, his 2.86 ranked only 15th among hitters (minimum 400 games), and he's coming off what was a down year as a 33-year-old in 2024. Fortunately, Semien has remained in the leadoff spot in early spring games, but any change would deepen his downside.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32767.png&w=350&h=254&transparent=true\" width=\"100\"\u003E\u003Cb\u003E\u003Ca data-player-guid=\"1df6371c-ef15-0725-1cec-c5ea48e1263c\" href=\"https://www.espn.com/mlb/player/_/id/32767/matt-olson\"\u003EMatt Olson\u003C/a\u003E\u003C/b\u003E has hit 74 home runs after the All-Star break over the last four years combined, second-most in baseball to Judge's 89. Olson has also averaged 0.49 fantasy points per game more after the break compared to his pre-break numbers over this stretch. Keep that in mind when you're evaluating an aggressive bid for him at the draft table, relative to letting him go and instead trying to make an in-season trade for him.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/42406.png&w=350&h=254&transparent=true\" width=\"100\"\u003E\u003Cb\u003E\u003Ca data-player-guid=\"1a5ac7a8-3d43-3bba-ac79-580f0a46e25f\" href=\"https://www.espn.com/mlb/player/_/id/42406/george-kirby\"\u003EGeorge Kirby\u003C/a\u003E\u003C/b\u003E has quickly become one of my favorite high-floor fantasy pitching targets, thanks to his pinpoint control and elite stuff. In both 2023 and 2024, he pitched at least 190 innings with a sub-3% walk rate, accounting for two of the only 12 such seasons this century. Kirby, however, is one of only three different pitchers to have done that while \u003Ci\u003Ealso\u003C/i\u003E sporting at least a 7.5 K/BB ratio in the same year, joining Greg Maddux (1995, 1997), Cliff Lee (2010) and Phil Hughes (2014). Though Hughes is the outlier on that list, Kirby is in some impressive company with Maddux and Lee, and he'll play this season at only 27 years old.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4109109.png&w=350&h=254&transparent=true\" width=\"100\"\u003EOnly two qualified hitters last season managed at least a 45% Statcast hard-hit rate but also no greater than a 15% whiff rate on all swings last season: \u003Ca data-player-guid=\"b7385cff-51b5-1174-5c73-bd5f2309c73e\" href=\"https://www.espn.com/mlb/player/_/id/33481/yandy-diaz\"\u003EYandy Diaz\u003C/a\u003E and \u003Cstrong\u003E\u003Ca data-player-guid=\"1504857a-3703-3a40-95e4-f56bcf111a37\" href=\"https://www.espn.com/mlb/player/_/id/4109109/vinnie-pasquantino\"\u003EVinnie Pasquantino\u003C/a\u003E\u003C/strong\u003E. Both players' elite skills with the bat make them undervalued players, particularly Pasquantino, who hit 24 homers in the minors in 2022 and 28 combined between the majors and minors in 2023.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33675.png&w=350&h=254&transparent=true\" width=\"100\"\u003E\u003Cb\u003E\u003Ca data-player-guid=\"5b0dc2c1-e790-cc40-0add-4ce6867ac25b\" href=\"https://www.espn.com/mlb/player/_/id/33675/willy-adames\"\u003EWilly Adames\u003C/a\u003E\u003C/b\u003E' 224 plate appearances with runners in scoring position last season was an MLB-leading total, as well as the most by any player since Hunter Pence in 2012. Adames drove in a league-best 93 runners in the process, something that he'll be hard-pressed to repeat in 2025. He also stole 21 bases, almost double his previous career high for stolen base \u003Ci\u003Eattempts\u003C/i\u003E (11, in 2018 and 2022). Adames remains a very good, top 10-capable fantasy shortstop, but he's bound to regress in both the RBI and SB categories in 2025.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/39706.png&w=350&h=254&transparent=true\" width=\"100\"\u003EOver the last four seasons, \u003Cb\u003E\u003Ca data-player-guid=\"519a39a3-6af2-5f0a-91b9-06a5424ed036\" href=\"https://www.espn.com/mlb/player/_/id/39706/isaac-paredes\"\u003EIsaac Paredes\u003C/a\u003E\u003C/b\u003E has pulled 71 home runs and \u003Ca data-player-guid=\"3d7357ea-da4c-4f12-5c83-52bbfa624a62\" href=\"https://www.espn.com/mlb/player/_/id/32758/christian-walker\"\u003EChristian Walker\u003C/a\u003E 70, the 10th- and 11th-most by any right-handed batter during that time span. That's important, considering both players are now with the \u003Ca data-clubhouse-guid=\"00a3015f-09ec-1b03-52af-656f5e0a18d5\" href=\"https://www.espn.com/mlb/team/_/name/hou/houston-astros\"\u003EHouston Astros\u003C/a\u003E, where their home ballpark, Daikin Park, has the Crawford Boxes in closer-than-league-average proximity to home plate in left field.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4730225.png&w=350&h=254&transparent=true\" width=\"100\"\u003E\u003Cb\u003E\u003Ca data-player-guid=\"a612c014-c389-3057-849d-d820a0d7c361\" href=\"https://www.espn.com/mlb/player/_/id/4730225/mason-miller\"\u003EMason Miller\u003C/a\u003E\u003C/b\u003E became only the third rookie reliever to manage at least 25 saves, 100 strikeouts and a sub-2.50 ERA, joining Terry Forster (1972) and \u003Ca data-player-guid=\"7190b595-7340-3553-8430-26cdedd59261\" href=\"https://www.espn.com/mlb/player/_/id/30653/craig-kimbrel\"\u003ECraig Kimbrel\u003C/a\u003E (2011), which is why I was shocked to see him place only fourth in the wide-open AL Rookie of the Year balloting. Perhaps that will help him sneak relatively beneath the radar when compared to other top closers, but he has the raw stuff that compares to anyone's. Miller led all pitchers (minimum 50 IP) in strikeout rate (41.8%), average fastball velocity (100.9 mph) and Statcast's expected ERA (1.77).\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32082.png&w=350&h=254&transparent=true\" width=\"100\"\u003EAt the age of 34 and in his 13th season in the majors, \u003Cb\u003E\u003Ca data-player-guid=\"72a5bc3d-5cb6-d1ba-5828-789d8913ea04\" href=\"https://www.espn.com/mlb/player/_/id/32082/sonny-gray\"\u003ESonny Gray\u003C/a\u003E\u003C/b\u003E enjoyed what could by many measures have been regarded a career year in 2024. If you're worried about his ability to maintain his performance at his age, consider what he just accomplished. His 5.8% walk rate was a personal best, and last season represented the first time in his career that he has had three pitches that he threw at least 10% of the time generate at least a 30% whiff rate (sweeper, cutter and curveball).\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/5000950.png&w=350&h=254&transparent=true\" width=\"100\"\u003EIt's easy to underrate closers who only recently moved into their jobs, such as the \u003Cb\u003E\u003Ca data-player-guid=\"783fbbdb-9cf3-3917-a460-b7603cfb7a0e\" href=\"https://www.espn.com/mlb/player/_/id/5000950/ryan-walker\"\u003ERyan Walker\u003C/a\u003E \u003C/b\u003Eof the \u003Ca data-clubhouse-guid=\"e072b79c-4fa1-3a55-bdcd-4d7d9734d79b\" href=\"https://www.espn.com/mlb/team/_/name/sf/san-francisco-giants\"\u003ESan Francisco Giants\u003C/a\u003E. He notched his first save last season on Aug. 10. From that date forward, his 122 fantasy points were seventh-best among relief pitchers. Among those with at least 15 appearances during that time span, his 37.3% strikeout rate tied for ninth-best, his 26.8% hard-hit rate allowed ranked 11th-best, and his 1.91 FIP was 15th-best. Walker has the ability to be a top-10 fantasy closer in 2025.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/39635.png&w=350&h=254&transparent=true\" width=\"100\"\u003ETo give you a sense of what a healthy \u003Cb\u003E\u003Ca data-player-guid=\"97a645fb-5186-1a6d-3892-6e49d260b085\" href=\"https://www.espn.com/mlb/player/_/id/39635/hunter-greene\"\u003EHunter Greene\u003C/a\u003E\u003C/b\u003E can do, consider that he stayed mostly injury-free between Aug. 20, 2023, and Aug. 13, 2024 (other than a 10-day IL stint in September 2023) spanning 158 \u003Ca data-clubhouse-guid=\"04b65a0b-3cca-d795-0e21-23606470418a\" href=\"https://www.espn.com/mlb/team/_/name/cin/cincinnati-reds\"\u003ECincinnati Reds\u003C/a\u003E games. Even accounting for that brief absence, he scored 416 fantasy points, a total exceeded by only 10 other starting pitchers over that time. Additionally, in that same time span, only seven qualified starting pitchers had better than his 29.3% whiff rate.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4721302.png&w=350&h=254&transparent=true\" width=\"100\"\u003E\u003Cb\u003E\u003Ca data-player-guid=\"dbe66276-1291-35f3-80d9-7989f15b7606\" href=\"https://www.espn.com/mlb/player/_/id/4721302/brandon-pfaadt\"\u003EBrandon Pfaadt\u003C/a\u003E\u003C/b\u003E had a 1.11 differential between his ERA (4.71) and FIP (3.61) last season, the third-widest in that direction among qualified pitchers. It was only the 10th time this century that a qualified pitcher had an ERA more than a run higher than his FIP, as well as a sub-four FIP, signaling a high degree of unluckiness for the \u003Ca data-clubhouse-guid=\"43e14a76-ff66-49ed-24fc-2835932f99dd\" href=\"https://www.espn.com/mlb/team/_/name/ari/arizona-diamondbacks\"\u003EArizona Diamondbacks\u003C/a\u003E starter. Pfaadt is a potential bargain this season.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32796.png&w=350&h=254&transparent=true\" width=\"100\"\u003EYes, \u003Cb\u003E\u003Ca data-player-guid=\"f17ac700-ad8b-0057-ed5b-a5199e7bad9a\" href=\"https://www.espn.com/mlb/player/_/id/32796/jacob-degrom\"\u003EJacob deGrom\u003C/a\u003E\u003C/b\u003E is one of baseball's greatest injury risks, but he has been consistently excellent around his absences. In the last five seasons alone, coming off what were back-to-back NL Cy Young Award campaigns for the right-hander, 91.5% of his starts resulted in double-digit fantasy points, the best rate in baseball among pitchers with at least five starts. That included two of his three starts fresh off Tommy John surgery in 2024, when he was limited in terms of pitch count. Additionally, 51.1% of deGrom's starts in that same five-year span were worth at least 20 fantasy points, also an MLB-leading rate.\u003C/p\u003E\n\u003Cp\u003EIf there's any time to take a chance on deGrom, it's now, with him fully recovered from his most recent surgery and having shown a high level of skill in his brief return.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4917694.png&w=350&h=254&transparent=true\" width=\"100\"\u003E\u003Cb\u003E\u003Ca data-player-guid=\"69d42781-0bf5-3c3a-94be-592c98ef717f\" href=\"https://www.espn.com/mlb/player/_/id/4917694/elly-de-la-cruz\"\u003EElly De La Cruz\u003C/a\u003E\u003C/b\u003E did have an MLB-leading 218 strikeouts during his breakthrough 2024, but don't let that scare you about his potential growth entering his third big-league season. That he incrementally improved his selectivity at the plate last season bodes well. In 2023, De La Cruz chased a non-strike 29.2% of the time while in Triple-A ball, and 32.8% of the time with the Reds. Last season, he cut that rate down to 26.9%.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4424862.png&w=350&h=254&transparent=true\" width=\"100\"\u003EMind \u003Cb\u003E\u003Ca data-player-guid=\"f805dbf1-b179-3ce5-8e7f-dbd027796296\" href=\"https://www.espn.com/mlb/player/_/id/4424862/spencer-schwellenbach\"\u003ESpencer Schwellenbach\u003C/a\u003E\u003C/b\u003E's workload increased last season, as it's probably the best argument against his potential to advance into the top-10 fantasy starting pitchers in 2025. He was one of 16 pitchers in professional ball to experience at least a 100-inning boost, accounting for work at all pro levels and in foreign leagues, and he was the youngest pitcher among that group.\u003C/p\u003E\n\u003Cp\u003EFor those curious about the other pitchers under the age of 30 who were also on that list: \u003Ca data-player-guid=\"3424248b-ead6-b017-303f-c71c19dfe84d\" href=\"https://www.espn.com/mlb/player/_/id/41325/aaron-ashby\"\u003EAaron Ashby\u003C/a\u003E, \u003Ca data-player-guid=\"f8e374bd-6292-ad17-87d2-b80650a25588\" href=\"https://www.espn.com/mlb/player/_/id/39639/shane-baz\"\u003EShane Baz\u003C/a\u003E, \u003Ca data-player-guid=\"758d4fc6-a046-3dc0-9280-c6279357128c\" href=\"https://www.espn.com/mlb/player/_/id/4297835/garrett-crochet\"\u003EGarrett Crochet\u003C/a\u003E, \u003Ca href=\"https://www.espn.com/mlb/player/_/id/4081461/davis-daniel\"\u003EDavis Daniel\u003C/a\u003E, \u003Ca data-player-guid=\"9119f779-58ca-375d-be40-08005533de1b\" href=\"https://www.espn.com/mlb/player/_/id/4019484/ryan-feltner\"\u003ERyan Feltner\u003C/a\u003E, \u003Ca data-player-guid=\"bf6b0b28-91c1-4e83-6be1-e27276a39c45\" href=\"https://www.espn.com/mlb/player/_/id/40626/luis-gil\"\u003ELuis Gil\u003C/a\u003E, \u003Ca data-player-guid=\"6ffeea64-ce1e-3176-953e-e8f64e9dd6ea\" href=\"https://www.espn.com/mlb/player/_/id/4414002/jt-ginn\"\u003EJ.T. Ginn\u003C/a\u003E, \u003Ca data-player-guid=\"16d848fc-3339-3b4e-9ac4-2f603b98ee0e\" href=\"https://www.espn.com/mlb/player/_/id/4345164/max-meyer\"\u003EMax Meyer\u003C/a\u003E, \u003Ca data-player-guid=\"a3fa18ed-b06e-079d-533f-d5e9a4356028\" href=\"https://www.espn.com/mlb/player/_/id/41167/casey-mize\"\u003ECasey Mize\u003C/a\u003E, \u003Ca data-player-guid=\"a1c10777-a90b-1d32-94ba-5e5ac51f4eab\" href=\"https://www.espn.com/mlb/player/_/id/33696/carlos-rodon\"\u003ECarlos Rodon\u003C/a\u003E, \u003Ca data-player-guid=\"dd8a4f53-4c3b-3600-aa26-df5bb1dfac88\" href=\"https://www.espn.com/mlb/player/_/id/4411979/yariel-rodriguez\"\u003EYariel Rodriguez\u003C/a\u003E and \u003Ca data-player-guid=\"6d953311-b8f6-1ebd-e221-7761c8bf2cf3\" href=\"https://www.espn.com/mlb/player/_/id/39640/trevor-rogers\"\u003ETrevor Rogers\u003C/a\u003E.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/41415.png&w=350&h=254&transparent=true\" width=\"100\"\u003EThe Astros seemed to crack the \u003Cb\u003E\u003Ca data-player-guid=\"9a8e6a97-457d-594d-a216-336f2d6d2d7f\" href=\"https://www.espn.com/mlb/player/_/id/41415/yusei-kikuchi\"\u003EYusei Kikuchi\u003C/a\u003E\u003C/b\u003E code, following their acquisition of the left-hander at the trade deadline. They coaxed him to decrease his four-seam fastball usage while leaning much more heavily upon his slider. In fact, last August and September were two of the only four months in which he has thrown fewer than 50% four-seamers and 30%-plus sliders across the past three seasons.\u003C/p\u003E\n\u003Cp\u003EIn those four months, he averaged 12.3 fantasy points per appearance. In the other 14 months, he averaged just 7.9 points per outing. Kikuchi's time with the Astros represented two of his seven best-scoring months from 2021-23. Here's hoping the \u003Ca data-clubhouse-guid=\"053868c7-8bff-5edb-3cb6-f5490f33ef99\" href=\"https://www.espn.com/mlb/team/_/name/laa/los-angeles-angels\"\u003ELos Angeles Angels\u003C/a\u003E, his new team, have him continue with similar pitch selection.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/4918256.png&w=350&h=254&transparent=true\" width=\"100\"\u003E\u003Cb\u003E\u003Ca data-player-guid=\"05e514e4-4e08-31e8-a7bc-7aa82497d299\" href=\"https://www.espn.com/mlb/player/_/id/4918256/james-wood\"\u003EJames Wood\u003C/a\u003E\u003C/b\u003E does need to get more lift on the ball before he'll truly break out at the MLB level, but to give you an idea of how much offensive potential he'd have once he does, consider his contact quality of 2024. His 59.1% Statcast hard-hit rate while at Triple-A Rochester led that level (among hitters with at least 100 plate appearances), while his 52.0% rate in his 79 games while with the \u003Ca data-clubhouse-guid=\"a73e1046-e9aa-ef6b-4e0d-2a7c808cb284\" href=\"https://www.espn.com/mlb/team/_/name/wsh/washington-nationals\"\u003EWashington Nationals\u003C/a\u003E placed in the 96th percentile among hitters with at least 150 batted balls. Keep an eye out for any shifts in Wood's swing path this spring.\u003C/p\u003E\n\u003Cp\u003E\u003Cimg alt=\"\" class=\"floatleft\" src=\"https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/42598.png&w=350&h=254&transparent=true\" width=\"100\"\u003EOnly two players had at least 150 plate appearances in each of the past three seasons, while improving their in-zone contact rate in both of the past two years: \u003Cb\u003E\u003Ca data-player-guid=\"d293108f-f81e-32c9-884b-5670b84eac46\" href=\"https://www.espn.com/mlb/player/_/id/42598/shea-langeliers\"\u003EShea Langeliers\u003C/a\u003E\u003C/b\u003E and \u003Ca data-player-guid=\"a5440d78-cac3-3ab3-abf2-5c38b24a596c\" href=\"https://www.espn.com/mlb/player/_/id/4109223/michael-massey\"\u003EMichael Massey\u003C/a\u003E. In Langeliers' case, he's a potential bargain backstop, and bear in mind that his 534 plate appearances last season were seventh-most among catchers.\u003C/p\u003E\n\n\n\n\n",
+        "premium": false,
+        "links": {
+          "web": {
+            "href": "https://www.espn.com/fantasy/baseball/story/_/id/44052166/mastering-2025-fantasy-baseball-player-pool"
+          },
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=44052166"
+          },
+          "api": {
+            "self": {
+              "href": "https://content.core.api.espn.com/v1/sports/news/44052166"
+            }
+          },
+          "app": {
+            "sportscenter": {
+              "href": "sportscenter://x-callback-url/showStory?uid=44052166"
+            }
+          }
+        },
+        "byline": "Tristan H. Cockcroft",
+        "allowAMP": true,
+        "allowComments": true,
+        "allowSearch": true,
+        "allowContentReactions": true,
+        "playerId": 31097
+      },
+      {
+        "id": 95076210,
+        "nowId": "23-95076210",
+        "contentKey": "95076210-23-1-1",
+        "dataSourceIdentifier": "b0bfd6f45ce35",
+        "type": "Rotowire",
+        "headline": "Machado (back) is expected to play in one of Tuesday's split-squad games, Kevin Acee of The San Diego Union-Tribune reports.",
+        "description": "Machado (back) is expected to play in one of Tuesday's split-squad games, Kevin Acee of The San Diego Union-Tribune reports.",
+        "categorized": "2025-03-02T17:30:07Z",
+        "lastModified": "2025-03-02T17:30:07Z",
+        "published": "2025-03-02T17:30:07Z",
+        "images": [],
+        "story": "The veteran third baseman was scratched from the lineup Friday due to back tightness, but it appears he'll require only a few days off before returning to action. Barring an aggravation of the injury, Machado shouldn't have an issue being ready for the start of the season.",
+        "premium": false,
+        "links": {
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=95076210"
+          },
+          "api": {
+            "self": {
+
+            }
+          }
+        },
+        "allowSearch": false,
+        "allowContentReactions": false,
+        "playerId": 31097
+      },
+      {
+        "id": 95064710,
+        "nowId": "23-95064710",
+        "contentKey": "95064710-23-1-1",
+        "dataSourceIdentifier": "f9513b9f4cd21",
+        "type": "Rotowire",
+        "headline": "Machado has been scratched from Friday's spring training game against the Mariners due to back tightness, Kevin Acee of The San Diego Union-Tribune reports.",
+        "description": "Machado has been scratched from Friday's spring training game against the Mariners due to back tightness, Kevin Acee of The San Diego Union-Tribune reports.",
+        "categorized": "2025-03-01T01:07:25Z",
+        "lastModified": "2025-03-01T01:07:25Z",
+        "published": "2025-03-01T01:07:25Z",
+        "images": [],
+        "story": "The injury isn't considered serious, and Acee relays that Machado's removal from Friday's lineup is purely precautionary. It's possible that the 32-year-old Machado will be held out of the Padres' next couple of games to truly manage the injury. Eguy Rosario will take Machado's place at third base and bat eighth.",
+        "premium": false,
+        "links": {
+          "mobile": {
+            "href": "http://m.espn.go.com/wireless/story?storyId=95064710"
+          },
+          "api": {
+            "self": {
+
+            }
+          }
+        },
+        "allowSearch": false,
+        "allowContentReactions": false,
+        "playerId": 31097
+      }
+    ]
+  }
+}
